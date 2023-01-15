@@ -24,6 +24,12 @@ html, body {
   color: white;
   border: none;
   border-radius: 8px;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
 }
 
 /* Navigation and Hero Section */
@@ -46,7 +52,7 @@ html, body {
 
 .navigation .menu-items ul {
   display: flex;
-  gap: 55px;
+  gap: 35px;
 }
 
 .navigation .menu-items ul li{
@@ -54,6 +60,19 @@ html, body {
   font-size: 18px;
   color: #424242;
   font-weight: 500;
+  background-color: #FF900E, transparent;
+  border-radius: 8px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.navigation .menu-items ul li:hover {
+  background-color: #FF900E;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
 }
 
 hr {
@@ -100,6 +119,16 @@ hr {
   align-items: center;
   gap: 50px;
   padding: 40px;
+}
+
+.quick-features .image-grid img {
+  transition: 0.2s ease-in-out;
+}
+
+.quick-features .image-grid img:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
 }
 
 .image-grid {
@@ -239,7 +268,15 @@ hr {
   padding: 60px 30px;
   width: 250px;
   height: 250px;
+  transition: 0.2s ease-in-out;
 }
+
+.some-facts-info .info:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.13);
+}
+
 
 .some-facts-info .info h2{
   font-weight: 600;
@@ -362,12 +399,28 @@ hr {
   }
   
   .navigation .menu-items ul {
-    justify-content: space-evenly;
-    gap: 30px;
+    display: flex;
+    gap: 10px;
   }
   
   .navigation .menu-items ul li{
-    font-size: 16px;
+    list-style: none;
+    font-size: 14px;
+    color: #424242;
+    font-weight: 500;
+    background-color: #FF900E, transparent;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .navigation .menu-items ul li:hover {
+    background-color: #FF900E;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
   }
 
   hr {
@@ -441,7 +494,7 @@ hr {
 
 .features-brief {
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 20px;
 }
 
@@ -454,13 +507,15 @@ hr {
 }
 
 .main-title {
-  display: flex;
   gap: 15px;
+  align-items: center;
+  height: 140px;
 }
 
 .vl {
-  border-left: 6px solid #FF900E;;
-  height: 160px;
+  border: 3px solid #FF900E;;
+  height: 140px;
+  margin-bottom: 35px;
 } 
 
 .feature-title-2{
