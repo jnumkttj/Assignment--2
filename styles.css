@@ -410,7 +410,7 @@ hr {
     font-weight: 500;
     background-color: #FF900E, transparent;
     border-radius: 8px;
-    padding: 8px 20px;
+    padding: 6px 16px;
     border-radius: 8px;
     transition: 0.3s ease-in-out;
   }
@@ -418,7 +418,7 @@ hr {
   .navigation .menu-items ul li:hover {
     background-color: #FF900E;
     color: white;
-    padding: 8px 20px;
+    padding: 6px 16px;
     border-radius: 8px;
     transition: 0.3s ease-in-out;
   }
@@ -649,7 +649,7 @@ hr {
   font-size: 16px;
   line-height: 26px;
   color: #727272;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .arsenal-section .section-sub br {
@@ -676,6 +676,7 @@ hr {
 /* Our Sponsors Section */
 
 .our-sponsors {
+  margin-top: -40px;
   margin-bottom: 80px;
   padding: 0 20px;
 }
@@ -687,7 +688,6 @@ hr {
   margin-bottom: 30px;
   margin-top: 80px;
   text-align: left;
-
 }
 
 .sponsors-text .section-sub {
